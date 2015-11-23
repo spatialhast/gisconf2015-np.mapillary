@@ -3,7 +3,9 @@
 
 http://spatialhast.github.io/gisconf2015-np.mapillary
 
+
 https://github.com/spatialhast/np.mapillary.tools - data processing tools
+
 https://github.com/spatialhast/np.mapillary - web-map
 
 
