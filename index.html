@@ -1,57 +1,814 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Gisconf2015-np.mapillary by spatialhast</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Gisconf2015-np.mapillary</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/spatialhast/gisconf2015-np.mapillary" class="btn">View on GitHub</a>
-      <a href="https://github.com/spatialhast/gisconf2015-np.mapillary/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/spatialhast/gisconf2015-np.mapillary/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+	<html class="sl-root base export loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>GISConf 2015 | NP@Mapillary 2015: Slides</title>
+		<meta name="description" content="Slides">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+	</head>
+	<body class="reveal-viewport theme-font-overpass2 theme-color-black-orange">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="44003e83215160ed37967387457d2233"><div data-block-id="cb723a9baf862f8e558586129c099fa9" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 191px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Разработка веб-картографического приложения для конкурса NP@Mapillary 2015</h1>
+</div></div>
+<div data-block-id="433cadcc452bc6c801f59ef44569be26" style="height: auto; min-width: 30px; min-height: 30px; width: 414px; left: 487px; top: 560px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="mailto:kleshnin.alexander@gmail.com" target="_top">Александр Клешнин</a></p>
+</div></div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<div data-block-id="6ea2a8360941306722b9c7be96d8193a" style="min-width: 30px; min-height: 30px; width: 278.571px; height: 70px; left: 661px; top: 22px;" data-block-type="image" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><img data-natural-height="98" data-natural-width="390" style="" data-src="gisconf-2015-npmapillary-2015/1809944-002_InteticsGeo.logo.png"></div></div>
+<div data-block-id="d7f63762ec286a1c89567c3229c9c911" style="height: auto; min-width: 30px; min-height: 30px; width: 354px; left: 535px; top: 594px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>GIS Analyst, <a href="http://intetics.com/gis-and-geospatial-solutions/" target="_blank">Intetics Geo</a></p>
+</div></div>
+<div data-block-id="676cd5ecbbaf2cb2945e51789aec2c11" style="min-width: 30px; min-height: 30px; width: 125.501px; height: 156px; left: 34px; top: 22px;" data-block-type="image" class="sl-block"><div style="z-index: 15;" class="sl-block-content"><img data-natural-height="445" data-natural-width="358" style="" data-src="gisconf-2015-npmapillary-2015/1976322-opengis2015.png"></div></div></section><section><div data-block-id="16a3fe4c14a2fd6118a516fc14f91c1f" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align: left;">NP@MApillary 2015</h2>
+</div></div>
+<div data-block-id="7884290b12a9726fae28d8fa10e1b4f1" style="height: auto; min-width: 30px; min-height: 30px; width: 913px; left: 24px; top: 104px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Конкурс по сбору геотегированных фотографий в объектах природно-заповедного фонда (ПЗФ) Украины</p>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p style="text-align:left">Продолжительность конкурса: 15.09.2015 - 15.12.2015</p>
+</div></div>
+<div data-block-id="3a854cda127b9c1609368d1803cff77f" style="height: auto; min-width: 30px; min-height: 30px; width: 910px; left: 50px; top: 609px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Wiki OSM: <a href="http://wiki.openstreetmap.org/wiki/Uk:NP@Mapillary_2015" target="_blank">http://wiki.openstreetmap.org/wiki/Uk:NP@Mapillary_2015</a></p>
+</div></div>
+<div data-block-id="cd1ed330f80e1a4e975bb6323f0fc158" style="height: auto; min-width: 30px; min-height: 30px; width: 910px; left: 50px; top: 645px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">OSM Forum: <a href="http://forum.openstreetmap.org/viewtopic.php?id=40906" target="_blank">http://forum.openstreetmap.org/viewtopic.php?id=40906</a></p>
+</div></div>
+<div data-block-id="f200e36c3bca12909250198d90063a88" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 126px; top: 233px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left"> Объекты ПЗФ:</p>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<ul>
+	<li style="text-align:left"><span><span>Национальные</span> <span>природные</span> <span>парки</span></span></li>
+	<li style="text-align:left"><span><span>Региональные</span> <span>ландшафтные</span> <span>парки</span></span></li>
+	<li style="text-align:left"><span><span>Ботанические</span> <span>сады</span></span></li>
+	<li style="text-align:left"><span>Д<span>ендрологические</span> <span>парки</span></span></li>
+	<li style="text-align:left"><span>З<span>оологические парки</span></span></li>
+	<li style="text-align:left"><span>П<span>арки-памятники</span> <span>садово</span><span>-паркового</span> <span>искусства</span></span></li>
+</ul>
+</div></div>
+<div data-block-id="e0830058e4d8377a9071c2f4a1ac4a70" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 23px; top: 569px;" data-block-type="text" class="sl-block"><div style="z-index: 16;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;">Подробно о конкурсе:</p>
+</div></div></section><section><div data-block-id="b27a809707d758946bdd0e1d008f8909" style="height: auto; width: 800px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 10;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align: left;">NP@MApillary 2015</h2>
+</div></div>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<div data-block-id="72c79a4ce84592e3d1b41db8bb879654" style="height: auto; width: 910px; left: 50px; top: 609px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Wiki OSM: <a href="http://wiki.openstreetmap.org/wiki/Uk:NP@Mapillary_2015" target="_blank">http://wiki.openstreetmap.org/wiki/Uk:NP@Mapillary_2015</a></p>
+</div></div>
+<div data-block-id="9a260c77aae6eadd02a92039be175fb1" style="height: auto; width: 910px; left: 50px; top: 643px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">OSM Forum: <a href="http://forum.openstreetmap.org/viewtopic.php?id=40906" target="_blank">http://forum.openstreetmap.org/viewtopic.php?id=40906</a></p>
+</div></div>
+<div data-block-id="943648d53c813eb0b04184c93df4fe2f" style="min-width: 30px; min-height: 30px; width: 310.667px; height: 233px; left: 25px; top: 80px;" data-block-type="image" class="sl-block"><div style="z-index: 13; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="300" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967058-pzg_04.jpg"></div></div>
+<div data-block-id="2f3a840d278587d6b6ad4c7bb5cfe4ed" style="min-width: 30px; min-height: 30px; width: 360px; height: 239.4px; left: 300px; top: 100px;" data-block-type="image" class="sl-block"><div style="z-index: 14; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="266" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967057-pzg_03.jpg"></div></div>
+<div data-block-id="7942bf1f6e4bfea09da088fc9b1641e0" style="min-width: 30px; min-height: 30px; width: 328.205px; height: 224px; left: 50px; top: 308px;" data-block-type="image" class="sl-block"><div style="z-index: 15; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="273" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967056-pzf_05.png"></div></div>
+<div data-block-id="41323b8081d2f1ebe1635328169b2677" style="min-width: 30px; min-height: 30px; width: 346.269px; height: 232px; left: 590.731px; top: 70px;" data-block-type="image" class="sl-block"><div style="z-index: 16; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="268" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967054-pzf_01.jpg"></div></div>
+<div data-block-id="f28b544f96c062e92667ab0114893c2a" style="min-width: 30px; min-height: 30px; width: 360px; height: 200.7px; left: 265px; top: 405px;" data-block-type="image" class="sl-block"><div style="z-index: 18; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="223" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967108-pzf_07.png"></div></div>
+<div data-block-id="f36fe5f7d0b250b8142e95f52ed01c41" style="min-width: 30px; min-height: 30px; width: 318.75px; height: 204px; left: 618px; top: 388px;" data-block-type="image" class="sl-block"><div style="z-index: 19; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="256" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967106-pzf_06.png"></div></div>
+<div data-block-id="117a78af27e63ce8895460e71f6d4caf" style="min-width: 30px; min-height: 30px; width: 305.618px; height: 204px; left: 487px; top: 248px;" data-block-type="image" class="sl-block"><div style="z-index: 20; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="267" data-natural-width="400" style="" data-src="gisconf-2015-npmapillary-2015/1967109-pzf_08.png"></div></div></section><section class="stack"><section data-id="662199a6c9b0b898bb297c0d8b2ce625"><div data-block-id="8fdfe1412211c9adfad13f174432d7b0" style="min-width: 30px; min-height: 30px; width: 640px; height: 160px; left: 160px; top: 238px;" data-block-type="image" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div></section><section>
+<div class="sl-block" data-block-type="text" data-block-id="208450bb63d2b5cd15f73c9f8ae73601" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 29px; top: 86px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p style="text-align:left"><span style="text-align:left"><a href="https://vimeo.com/91600402" target="_blank">Mapillary</a> is a service for crowdsourcing street levels photos.</span></p>
+</div></div>
+<div data-block-id="f7ad25385b1b07a04093fad5c9e5e1e3" style="min-width: 30px; min-height: 30px; width: 280px; height: 70px; left: 0px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<div data-block-id="ad8f3895ebdf4797d950350cb5a8ea5e" style="height: auto; min-width: 30px; min-height: 30px; width: 354px; left: 594px; top: 35px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: right;"><a href="https://www.mapillary.com" target="_blank">https://www.mapillary.com</a></p>
+</div></div>
+<div data-block-id="e67ffd947400c418a4fad6c2d86396cb" style="min-width: 30px; min-height: 30px; width: 888px; height: 543px; left: 36px; top: 140px;" data-block-type="iframe" class="sl-block"><div style="z-index: 14; border-style: solid; border-width: 1px;" class="sl-block-content"><iframe data-src="https://player.vimeo.com/video/91600402?api=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe></div></div></section><section>
+<div data-block-id="0b7c849a7392f66d4fdacba8895db405" class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 29px; top: 86px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p style="text-align:left"><span style="text-align:left">Global community - Global coverage</span></p>
+</div></div>
+<div data-block-id="6329639d4067c72ea90e07e25653ef40" style="width: 280px; height: 70px; left: 0px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
+<div data-block-id="f3a658a554ddd76664e31469cbebdbf0" style="width: 741.048px; height: 560px; left: 103.476px; top: 140px;" data-block-type="image" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><img data-natural-height="897" data-natural-width="1187" style="" data-src="gisconf-2015-npmapillary-2015/1967363-2015-11-19_00h15_49.png"></div></div>
+<div data-block-id="5c4af5da6def294684622f22774a811b" style="width: 360px; height: 313.964px; left: 600px; top: 372px;" data-block-type="image" class="sl-block"><div style="z-index: 14; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="341" data-natural-width="391" style="" data-src="gisconf-2015-npmapillary-2015/1967359-2015-11-19_00h14_34.png"></div></div>
+<div data-block-id="20b64d0de29fddc0e75db53c68baa033" style="width: 277.13px; height: 300px; left: 0px; top: 390px;" data-block-type="image" class="sl-block"><div style="z-index: 15; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="446" data-natural-width="412" style="" data-src="gisconf-2015-npmapillary-2015/1967360-2015-11-19_00h14_53.png"></div></div>
+<div data-block-id="ca8fb4e08c35f5695bf37e776a32218e" style="width: 360px; height: 250.651px; left: 15px; top: 169px;" data-block-type="image" class="sl-block"><div style="z-index: 16; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="353" data-natural-width="507" style="" data-src="gisconf-2015-npmapillary-2015/1967358-2015-11-19_00h14_05.png"></div></div>
+<div data-block-id="6fd95654323cfc0d2a9ba918f228e088" style="width: 360px; height: 227.439px; left: 588px; top: 150px;" data-block-type="image" class="sl-block"><div style="z-index: 17; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="338" data-natural-width="535" style="" data-src="gisconf-2015-npmapillary-2015/1967357-2015-11-19_00h14_21.png"></div></div>
+<div data-block-id="81011b7aaf99d8628e22d54e9a740dca" style="width: 360px; height: 348.031px; left: 266px; top: 253px;" data-block-type="image" class="sl-block"><div style="z-index: 18; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="378" data-natural-width="391" style="" data-src="gisconf-2015-npmapillary-2015/1967361-2015-11-19_00h15_08.png"></div></div>
+<div data-block-id="89169d27736f7db42cae291861e0af78" style="height: auto; width: 354px; left: 594px; top: 35px;" data-block-type="text" class="sl-block"><div style="z-index: 19;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: right;"><a href="https://www.mapillary.com" target="_blank">https://www.mapillary.com</a></p>
+</div></div></section><section>
+<div data-block-id="f6a5367a123171453263e5e48aef1e65" class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 29px; top: 86px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;">
+<p style="text-align:left"><span style="text-align:left">Global community - Global coverage</span></p>
+</div></div>
+<div data-block-id="4b69b2171e6ef19d2e62cffbec50a0e5" style="width: 280px; height: 70px; left: 1px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/spatialhast/gisconf2015-np.mapillary">Gisconf2015-np.mapillary</a> is maintained by <a href="https://github.com/spatialhast">spatialhast</a>.</span>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
 
-    </section>
 
-  
-  </body>
+
+<div data-block-id="7ceabee2a431d0c8b08cfcf0bc0ae37c" style="height: auto; width: 354px; left: 595px; top: 35px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: right;"><a href="https://www.mapillary.com" target="_blank">https://www.mapillary.com</a></p>
+</div></div>
+<div data-block-id="c8c3ef9a15728e0ef3bce012d2a54694" style="min-width: 30px; min-height: 30px; width: 919px; height: 521.501px; left: 21px; top: 152px;" data-block-type="image" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><img data-natural-height="900" data-natural-width="1586" style="" data-src="gisconf-2015-npmapillary-2015/1969399-2015-11-19_12h37_59.png"></div></div>
+<div data-block-id="44ad0d14cafce63a769dfc3d4ef817da" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 309px; top: 583px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><strong><span>43,010,186 <span> photos </span> </span></strong></p>
+
+<p><strong><span>1,063,120 <span> kilometers </span></span></strong></p>
+</div></div></section><section>
+<div data-block-id="ad892ca56c6e14794ed1742addc56420" style="width: 280px; height: 70px; left: 0px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
+<div data-block-id="eac4f5fc992dbe34dc0e6dd3911f8b4a" style="min-width: 30px; min-height: 30px; width: 928px; height: 560.182px; left: 16px; top: 102px;" data-block-type="image" class="sl-block"><div style="z-index: 12; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="795" data-natural-width="1317" style="" data-src="gisconf-2015-npmapillary-2015/1969353-output_iiBWeS.gif"></div></div></section><section>
+<div data-block-id="0389701dbd17b0273d79cc1d3dd9e44b" style="width: 280px; height: 70px; left: 0px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
+<div data-block-id="c6ef6830b31bd8391bb24bae9f9da272" style="min-width: 30px; min-height: 30px; width: 918.053px; height: 519px; left: 21px; top: 108px;" data-block-type="image" class="sl-block"><div style="z-index: 12; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="900" data-natural-width="1592" style="" data-src="gisconf-2015-npmapillary-2015/1969385-2015-11-19_12h32_35.png"></div></div></section><section><div data-block-id="d943d5195b0850ff13da6fe18d92eb8c" style="min-width: 30px; min-height: 30px; width: 800px; height: 450.781px; left: 80px; top: 188px;" data-block-type="image" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><img data-natural-height="577" data-natural-width="1024" style="" data-src="gisconf-2015-npmapillary-2015/1967304-IMAG1671.jpg"></div></div>
+<div data-block-id="1cd6c122c2218ad0c1c9b41ef2a25075" style="min-width: 30px; min-height: 30px; width: 280px; height: 70px; left: 0px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
+<div data-block-id="b2da20336d369f9491212cf78c09a166" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 116px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>GPS: Garmin eTrex 30 | Camera: GoPro HERO 2</p>
+</div></div></section><section>
+<div data-block-id="85c9e406031f0d27cf4bb84ea78bd507" style="width: 280px; height: 70px; left: 0px; top: 0px;" data-block-type="image" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><img data-natural-height="250" data-natural-width="1000" style="" data-src="gisconf-2015-npmapillary-2015/1967270-mapillary-logo-1000px-white.png"></div></div>
+<div data-block-id="1c262d9fddd85d7d3f02ff101dec8b60" style="height: auto; min-width: 30px; min-height: 30px; width: 191px; left: 0px; top: 79px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><strong>License</strong></p>
+</div></div>
+<div data-block-id="3e03a653c609aa4bd0774809b8ca6a74" style="height: auto; min-width: 30px; min-height: 30px; width: 917px; left: 29px; top: 121px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left"><em>The images on Mapillary can by used under Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA). There is special permission to derive data from the photos for contributing to OpenStreetMap and Wikimedia Commons. The GPX tracks can be used without restriction, and derived data can be used provided it is ODbL.</em></p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="bd13c369bf933d1a12152b0f7a525b4a" style="min-width: 30px; min-height: 30px; width: 508.127px; height: 294px; left: 430px; top: 377px;"><div class="sl-block-content" style="z-index: 14; border-style: solid; border-width: 1px;"><img style="" data-natural-width="598" data-natural-height="346" data-src="gisconf-2015-npmapillary-2015/1978546-josm.png"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="87d0c12737ccc44e1345925f78449d40" style="min-width: 30px; min-height: 30px; width: 487px; height: 295.068px; left: 29px; top: 327px;"><div class="sl-block-content" style="z-index: 15; border-style: solid; border-width: 1px;"><img style="" data-natural-width="883" data-natural-height="535" data-src="gisconf-2015-npmapillary-2015/1978545-id.gif"></div></div></section></section><section data-id="665cc4e42325381eaad409cbf3d2ee83">
+
+<div data-block-id="159b7847a0d4ab2c5eca3276091e50db" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align: left;">ЗАДАЧА</h2>
+</div></div>
+<div data-block-id="fae03b39969bd1bd72533527ca0912b8" style="height: auto; min-width: 30px; min-height: 30px; width: 903px; left: 29px; top: 91px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<ul>
+	<li style="text-align:left">Получить статистику собранных геотегированных фотографий в пределах объекта ПЗФ для каждого пользователя</li>
+	<li style="text-align:left">Отобразить на web-карте объекты ПЗФ и треки собранных геотегированных фотографий</li>
+</ul>
+</div></div>
+<div data-block-id="e337f20a00dc9b5fdcca5b5a6f7a8e08" style="height: auto; min-width: 120px; min-height: 30px; width: 930px; left: 15px; top: 265px;" data-block-type="table" class="sl-block"><div data-table-rows="4" style="z-index: 13; font-size: 96%;" class="sl-block-content"><table><tbody>
+<tr>
+<th>Mapillary user name</th>
+<th style="width: 311px;">Protected Area Name</th>
+<th>Photo Count</th>
+</tr>
+
+
+<tr>
+<td>hast</td>
+<td style="width: 311px;">Регіональний ландшафтний парк «Сокольники-Помірки»</td>
+<td>1717</td>
+</tr>
+<tr>
+<td>prudenko</td>
+<td style="width: 311px;">Національний природний парк «Голосіївський»</td>
+<td>60</td>
+</tr>
+<tr>
+<td>cartolab</td>
+<td style="width: 311px;">Національний природний парк «Слобожанський»</td>
+<td>34</td>
+</tr>
+</tbody></table></div></div>
+</section><section><div data-block-id="68deddc376e5164334a67542a80ab220" style="min-width: 30px; min-height: 30px; width: 917px; height: 607px; left: 22px; top: 70px;" data-block-type="iframe" class="sl-block"><div style="z-index: 10; border-style: solid; border-width: 1px;" class="sl-block-content"><iframe data-src="https://www.mapillary.com/map/places/85633805" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe></div></div>
+<div data-block-id="c2dd10928c9b147357cd275b3bfedcaf" style="height: auto; width: 708px; left: 22px; top: 22px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left"><a href="http://www.mapillary.com/map/places/85633805" target="_blank">http://www.mapillary.com/map/places/85633805</a></p>
+</div></div></section><section>
+
+<div data-block-id="8b9eaabedbae31b3e3cab6f383ebc723" style="height: auto; width: 800px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align: left;">материалы проекта</h2>
+</div></div>
+<div data-block-id="0e7186ac219b02c16f52908bf17cf589" style="height: auto; min-width: 30px; min-height: 30px; width: 932px; left: 14px; top: 70px;" data-block-type="text" class="sl-block"><div dir="ui" style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Репозиторий GitHub:</p>
+
+<p style="text-align:left"><a href="https://github.com/spatialhast/np.mapillary.tools" target="_blank">https://github.com/spatialhast/np.mapillary.tools</a> - data processing tools</p>
+
+<p style="text-align:left"><a href="https://github.com/spatialhast/np.mapillary" target="_blank">https://github.com/spatialhast/np.mapillary</a> - web-map</p>
+</div></div>
+<div data-block-id="2ee914556541c621dd131b271ec4d15f" style="min-width: 30px; min-height: 30px; width: 924px; height: 482px; left: 18px; top: 210px;" data-block-type="iframe" class="sl-block"><div style="z-index: 13; border-style: solid; border-width: 1px;" class="sl-block-content"><iframe data-src="https://spatialhast.github.io/np.mapillary/" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe></div></div></section><section>
+
+<div data-block-id="541f72f64d8bfdb3fdc52922100de44a" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left"><span style="font-size:1.0em">ИСПОЛЬЗУЕМОЕ ПО/БИБЛИОТЕКИ/ТЕХНОЛОГИИ</span></h2>
+</div></div>
+<div data-block-id="0ed69896d58b5f6996cd5ec2848a7f9e" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 167px; top: 253px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>QGIS, PostgreSQL/PostGIS, Leaflet, Tangram, Mapillary API, imposm3, ogr2ogr, Python, Shell...</p>
+</div></div>
+<div data-block-id="79cd11f67c6ae9d681b4b0ca69c5b89c" style="min-width: 30px; min-height: 30px; width: 98.04px; height: 108px; left: 779px; top: 402px;" data-block-type="image" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><img data-natural-height="900" data-natural-width="817" style="" data-src="gisconf-2015-npmapillary-2015/1969529-QGis_Logo.png"></div></div>
+<div data-block-id="f361eeea580ba43df63c3c86e1583eda" style="min-width: 30px; min-height: 30px; width: 90.5711px; height: 106px; left: 493px; top: 409px;" data-block-type="image" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><img data-natural-height="900" data-natural-width="769" style="" data-src="gisconf-2015-npmapillary-2015/1969527-logo-large.png"></div></div>
+<div data-block-id="40a674063cbd7a4e2e76e945b4eb9a14" style="min-width: 30px; min-height: 30px; width: 106.968px; height: 119px; left: 413px; top: 402px;" data-block-type="image" class="sl-block"><div style="z-index: 15;" class="sl-block-content"><img data-natural-height="900" data-natural-width="809" style="" data-src="gisconf-2015-npmapillary-2015/1969541-postgresql-logo.png"></div></div>
+<div data-block-id="d8a86a76fae53edea17aae0606bc843f" style="min-width: 30px; min-height: 30px; width: 195px; height: 51.675px; left: 83px; top: 410px;" data-block-type="image" class="sl-block"><div style="z-index: 16;" class="sl-block-content"><img data-natural-height="159" data-natural-width="600" style="" data-src="gisconf-2015-npmapillary-2015/1809943-001_Leaflet.logo.png"></div></div></section><section data-id="a5858a00883021c06f666cee277bf4a8">
+
+
+
+<div data-block-id="49f528aace87332c87d0126fcf3df5f4" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">исходные данные</h2>
+</div></div>
+<div data-block-id="3fee9edf7112ad42f6fd2e5e8598b24d" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 20px; top: 96px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Mapillary Geotagged Photos</p>
+</div></div>
+<div data-block-id="d113824c57abe188ca2cb9c9a2e2a7aa" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 20px; top: 376px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Protected Areas Boundary</p>
+</div></div>
+<div data-block-id="44636290d5b67aca8ceca983740f02bb" style="height: auto; min-width: 30px; min-height: 30px; width: 320px; left: 100px; top: 132px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<ul>
+	<li style="text-align:left">coordinates</li>
+	<li style="text-align:left">user name</li>
+	<li style="text-align:left">date capture</li>
+</ul>
+</div></div>
+<div data-block-id="490b4cf475199895bf6da1ad84e88841" style="height: auto; min-width: 30px; min-height: 30px; width: 271px; left: 100px; top: 412px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<ul>
+	<li style="text-align:left">PA name</li>
+</ul>
+</div></div>
+<div data-block-id="948b76b09e03b0cd16cc401023f1687e" style="min-width: 30px; min-height: 30px; width: 360px; height: 260.757px; left: 540px; top: 84px;" data-block-type="image" class="sl-block"><div style="z-index: 16; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="268" data-natural-width="370" style="" data-src="gisconf-2015-npmapillary-2015/1969805-2015-11-19_14h31_24.png"></div></div>
+<div data-block-id="7f40e3770924df185331cb757d7f2224" style="min-width: 30px; min-height: 30px; width: 404.8px; height: 253px; left: 345px; top: 430px;" data-block-type="image" class="sl-block"><div style="z-index: 17; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="900" data-natural-width="1440" style="" data-src="gisconf-2015-npmapillary-2015/1969807-2015-11-19_14h32_18.png"></div></div>
+<div data-block-id="9ab4c2e53029ab4633aeca266aff1a6e" style="min-width: 30px; min-height: 30px; width: 360px; height: 226.517px; left: 578px; top: 388px;" data-block-type="image" class="sl-block"><div style="z-index: 18; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="896" data-natural-width="1424" style="" data-src="gisconf-2015-npmapillary-2015/1969806-2015-11-19_14h31_53.png"></div></div></section><section>
+
+
+<div data-block-id="dd12c602491c40c277919f57b7d0735d" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">GeoTAGGED PHOTOS Processing</h2>
+</div></div>
+<div data-block-id="3b222bf158bbd01f1275899620adc302" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 47px; top: 104px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;">Mapillary API <a href="https://a.mapillary.com/" target="_blank">https://a.mapillary.com/</a></p>
+</div></div>
+<div data-block-id="0546e2cc481b3c4aba5d34ee459cc104" style="height: auto; min-width: 30px; min-height: 30px; width: 866px; left: 47px; top: 174px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Python Tools for Mapillary:</p>
+
+<p style="text-align:left"><a href="https://github.com/mapillary/mapillary_tools/tree/master/python" target="_blank">https://github.com/mapillary/mapillary_tools/tree/master/python</a></p>
+
+<p style="text-align:left"><a href="https://github.com/dalacost/mapillary_tools/tree/master/python" target="_blank">https://github.com/dalacost/mapillary_tools/tree/master/python</a></p>
+</div></div>
+<div data-block-id="182755d111e13822fe9458a92bdd92ed" style="height: auto; min-width: 30px; min-height: 30px; width: 921px; left: 20px; top: 317px;" data-block-type="text" class="sl-block"><div style="z-index: 14; border-width: 1px; padding: 5px;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<pre><span style="font-size:0.5em"><strong>download_gpx_from_sequences.py</strong>
+this scripts is a fast way to download GPS traces from the sequences uploaded to Mapillary. Download traces inside a rect (min_lat, max_lat, min_lon, max_lon).</span></pre>
+</div></div>
+<div data-block-id="e3462442056c68c065b496902586bab6" style="height: auto; min-width: 30px; min-height: 30px; width: 921px; left: 20px; top: 533px;" data-block-type="text" class="sl-block"><div style="z-index: 15; border-width: 1px; padding: 5px;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<pre><span style="font-size:0.5em"><strong>join_gpx_mapillary_files.py</strong>
+a fast way to join a lot of GPX files downloaded from Mapillary if you use download_gpx_from_sequences.py, this is your second step for join all in just one file.</span></pre>
+</div></div>
+<div data-block-id="d69836f4b0212b252e73b3b2973593e1" style="min-width: 30px; min-height: 30px; width: 827px; height: 86px; left: 34px; top: 428px;" data-block-type="code" class="sl-block"><div style="z-index: 16;" class="sl-block-content"><pre class="none"><code>python download_gpx_from_sequences.py [-h]
+                                      [-r min_lat max_lat min_lon max_long]
+                                      [-m MAXRESULTS] [-u USERNAME]
+                                      [-d1 STARTDATE] [-d2 ENDDATE]</code></pre></div></div>
+<div data-block-id="d985faf4c6aee56dd39914c2731ee9a9" style="min-width: 30px; min-height: 30px; width: 827px; height: 35px; left: 34px; top: 650px;" data-block-type="code" class="sl-block"><div style="z-index: 17;" class="sl-block-content"><pre><code>python join_gpx_mapillary_files.py [gpx_directory] [outputfile.gpx]</code></pre></div></div></section><section>
+
+
+<div data-block-id="a180038ea2f6901e95ebb584c7349878" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">GeoTAGGED PHOTOS Processing</h2>
+</div></div>
+<div data-block-id="6dd1f79c215ad251a451e67c673b84a6" style="height: auto; width: 923px; left: 19px; top: 76px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Get list of users in country:</p>
+
+<pre style="text-align:left"><span style="font-size:0.5em"><a href="https://a.mapillary.com/v2/stats/toplist?client_id=WTlZaVBSWmxRX3dQODVTN2gxWVdGUTpkMjliZGQwZWI2MTgyMjk0&amp;cname=ukraine&amp;limit=100" target="_blank">https://a.mapillary.com/v2/stats/toplist?client_id=CLIENT_ID&amp;cname=ukraine&amp;limit=100</a></span></pre>
+</div></div>
+<div data-block-id="1032de5a980b0d595b36962a341470af" style="min-width: 30px; min-height: 30px; width: 960px; height: 500px; left: 0px; top: 200px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>for username in alex7 algot alkarol andygol b108 baditaflorin cartolab cut dmbreaker durko_freemap edjone ghostishev gwin hast ikovaltaras imsamurai ivic4u jan_mapper maxim75 older prudenko sanjak serge serhijdubyk severyndubyk urbalazs velmyshanovnyi vsviridov wiktorn yamaxim yevgeniy8 zvid
+#for username in hast prudenko severyndubyk
+do
+	MAPILLARYUSER=$username
+	
+	echo -e "\e[32mHello "$MAPILLARYUSER"!\e[0m"
+
+	# initialize folders
+	rm -R _gpx
+	rm -R _merge_gpx
+	mkdir _merge_gpx
+
+	echo -e "\e[32m"$MAPILLARYUSER", I'm start download your GPS traces\e[0m"
+	python mapillary_tools/download_gpx_from_sequences.py -r ${BBOX} -m ${MAXRESULTS} -u ${MAPILLARYUSER}
+
+	echo -e "\e[32m"$MAPILLARYUSER", I'm start union your GPS traces\e[0m"	
+	python mapillary_tools/join_gpx_mapillary_files.py _gpx _merge_gpx/${MAPILLARYUSER}.gpx
+
+	echo -e "\e[32m"$MAPILLARYUSER", I'm start import your GPS traces in database\e[0m"
+	ogr2ogr  -overwrite -s_srs "+init=epsg:4326" -t_srs "+init=epsg:4326" -f "PostgreSQL" PG:"host=$HOST user=$USER dbname=$DBNAME password=$PASSWORD" _merge_gpx/${MAPILLARYUSER}.gpx -nln gpx_user_${MAPILLARYUSER}
+
+	psql -h $HOST -p $PORT -d $DBNAME -U $USER -c "ALTER TABLE gpx_user_${MAPILLARYUSER} DROP COLUMN track_fid,DROP COLUMN track_seg_id, 
+		DROP COLUMN track_seg_point_id, DROP COLUMN ele, DROP COLUMN magvar, DROP COLUMN geoidheight, DROP COLUMN cmt, DROP COLUMN src, 
+		DROP COLUMN link1_href, DROP COLUMN link1_text, DROP COLUMN link1_type, DROP COLUMN link2_href, DROP COLUMN link2_text,
+		DROP COLUMN link2_type, DROP COLUMN sym, DROP COLUMN type, DROP COLUMN fix, DROP COLUMN sat, DROP COLUMN hdop, DROP COLUMN vdop,
+		DROP COLUMN pdop, DROP COLUMN ageofdgpsdata, DROP COLUMN dgpsid;"
+	  
+	psql -h $HOST -p $PORT -d $DBNAME -U $USER -c "UPDATE gpx_user_${MAPILLARYUSER} SET name = '${MAPILLARYUSER}'"
+
+	echo ""
+done</code></pre></div></div>
+<div data-block-id="c15e2f3e9bd914221753e0565c71ac8c" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 19px; top: 164px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Import GPX sequences in PostGIS database:</p>
+</div></div></section><section>
+
+
+<div data-block-id="f9bce79972086d6f344ab7a209cf10b3" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">GeoTAGGED PHOTOS Processing</h2>
+</div></div>
+<div data-block-id="3d51f5f35458c7631657513d0eeecd1c" style="width: 960px; height: 220px; left: 0px; top: 129px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>--UNION ALL IMPORTED 'gpx_user_%USERNAME%' TABLES IN 'union_gpx_data' TABLE
+SELECT maskunion('public', 'gpx_user_', 'union_gpx_data');
+--
+--
+--'union_gpx_data': RENAME 'ogc_fid', 'wkb_geometry', 'time' FIELDS. DELETE 'desc' FIELD. CHANGE DATA TYPE FOR 'gpxtime' FIELD
+ALTER TABLE "union_gpx_data" RENAME ogc_fid TO id; 
+ALTER TABLE "union_gpx_data" RENAME wkb_geometry TO geom; 
+ALTER TABLE "union_gpx_data" RENAME "time" TO gpxtime;
+ALTER TABLE "union_gpx_data" DROP COLUMN "desc";
+ALTER TABLE "union_gpx_data" ALTER COLUMN gpxtime TYPE date USING gpxtime::date;</code></pre></div></div>
+<div data-block-id="1c3e93dcb16f9e054a3b23586620f986" style="height: auto; width: 600px; left: 19px; top: 93px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Create and format 'union_gpx_data' table:</p>
+</div></div>
+<div data-block-id="8090b826c9f85ec6dce4964452bec099" style="min-width: 30px; min-height: 30px; width: 684.923px; height: 210px; left: 138px; top: 420px;" data-block-type="image" class="sl-block"><div style="z-index: 14; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="195" data-natural-width="636" style="" data-src="gisconf-2015-npmapillary-2015/1969955-2015-11-19_15h27_15.png"></div></div></section><section>
+
+
+
+<div data-block-id="7ff33c8c0915873b4d1870588f061ff6" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 10;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">protected AREAS boundary</h2>
+</div></div>
+<div data-block-id="3f21d46272c7813112f90d0fa9bde050" style="min-width: 30px; min-height: 30px; width: 693.795px; height: 432px; left: 17px; top: 248px;" data-block-type="image" class="sl-block"><div style="z-index: 11; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="566" data-natural-width="909" style="" data-src="gisconf-2015-npmapillary-2015/1975826-2015-11-20_20h44_23.png"></div></div>
+<div data-block-id="73ab841e5fdf615756bad2a3bb51c7b3" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 20px; top: 204px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;"><a href="http://opengeo.intetics.com.ua/osm/pa/" target="_blank">http://opengeo.intetics.com.ua/osm/pa/</a></p>
+</div></div>
+<div data-block-id="877559e091c054b27d087d006723942e" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 17px; top: 126px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left"><a href="http://gis-lab.info/qa/osmshp.html" target="_blank">http://gis-lab.info/qa/osmshp.html</a></p>
+</div></div>
+<div data-block-id="888a3f8d54850fae139eaa31cd3fb695" style="height: auto; min-width: 30px; min-height: 30px; width: 780px; left: 20px; top: 90px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;">Данные OpenStreetMap в формате shape-файлов:</p>
+</div></div>
+<div data-block-id="693c25bfe7c1b443374ae53f42ee6da9" style="min-width: 30px; min-height: 30px; width: 123px; height: 123px; left: 800px; top: 87px;" data-block-type="image" class="sl-block"><div style="z-index: 16;" class="sl-block-content"><img data-natural-height="900" data-natural-width="900" style="" data-src="gisconf-2015-npmapillary-2015/1975793-Openstreetmap_logo.svg.png"></div></div></section><section>
+
+
+
+<div data-block-id="c51a1df6077ac8abb90bf862c4d0008a" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 10;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">protected AREAS boundary</h2>
+</div></div>
+<div data-block-id="c527ce61df0f2ad5ae1ce3aa53e0e93c" style="min-width: 30px; min-height: 30px; width: 612.166px; height: 379px; left: 28px; top: 181px;" data-block-type="image" class="sl-block"><div style="z-index: 11; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="447" data-natural-width="722" style="" data-src="gisconf-2015-npmapillary-2015/1975795-2015-11-20_20h31_36.png"></div></div>
+<div data-block-id="2180e5d471ef86d63b80b22423731b5f" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 25px; top: 145px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left"><a href="http://download.geofabrik.de/europe/ukraine.html" target="_blank">OpenStreetMap data for Ukraine</a></p>
+</div></div>
+<div data-block-id="bb597b2e5bb70b76b0e79562ad9bc73a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 25px; top: 86px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;"><a href="http://download.geofabrik.de/" target="_blank">http://download.geofabrik.de/</a></p>
+</div></div>
+<div data-block-id="21af979707cd4c234bf3a8c9abacc513" style="min-width: 30px; min-height: 30px; width: 960px; height: 69px; left: 0px; top: 606px;" data-block-type="code" class="sl-block"><div style="z-index: 15;" class="sl-block-content"><pre><code>wget -O ${HOME}/osmpa/osmdata/ukraine-latest.osm.pbf "http://download.geofabrik.de/europe/ukraine-latest.osm.pbf" ${HOME}/osmpa/osmdata</code></pre></div></div>
+<div data-block-id="b6ed39b41acae84593f9b539ebb83d1d" style="width: 123px; height: 123px; left: 757px; top: 70px;" data-block-type="image" class="sl-block"><div style="z-index: 16;" class="sl-block-content"><img data-natural-height="900" data-natural-width="900" style="" data-src="gisconf-2015-npmapillary-2015/1975793-Openstreetmap_logo.svg.png"></div></div></section><section>
+
+
+
+<div data-block-id="0b8bc181abdce6e367ec53ab1a170d84" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">protected AREAS boundary</h2>
+</div></div>
+<div data-block-id="a088aef8fe3f9a11563657e6bf24e52b" style="width: 123px; height: 123px; left: 757px; top: 70px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="900" data-natural-width="900" style="" data-src="gisconf-2015-npmapillary-2015/1975793-Openstreetmap_logo.svg.png"></div></div>
+<div data-block-id="d7f6ca4b9cfbdc581f08fd1c308f2216" style="min-width: 30px; min-height: 30px; width: 960px; height: 59px; left: 0px; top: 221px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>imposm3 import -read ukraine-latest.osm.pbf -write -cachedir cache -connection "postgis://$USER:$PASSWORD@$HOST:5432/$DBNAME?sslmode=disable&amp;prefix=NONE" -dbschema-import public -mapping mapping.json -diff -srid 4326 -overwritecache</code></pre></div></div>
+<div data-block-id="d530eca9bae8c5d2a4167332627d2332" style="height: auto; min-width: 30px; min-height: 30px; width: 650px; left: 15px; top: 87px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align:left">Imposm3</p>
+
+<p style="text-align:left"><a href="http://imposm.org/" target="_blank">http://imposm.org/</a></p>
+
+<p style="text-align:left"><a href="https://github.com/omniscale/imposm3" target="_blank">https://github.com/omniscale/imposm3</a></p>
+</div></div>
+<div data-block-id="1268f76b9c44f2187657989a64d720f8" style="min-width: 30px; min-height: 30px; width: 650px; height: 362px; left: 155px; top: 324px;" data-block-type="code" class="sl-block"><div style="z-index: 15;" class="sl-block-content"><pre><code>"nature_conservation_polygon": {
+    "fields": [{
+        "type": "geometry",
+        "name": "geom",
+        "key": null
+    }, 
+    {
+        ...
+    },
+    {
+        "type": "string",
+        "name": "name",
+        "key": "name"
+    }],
+    "type": "polygon",
+    "mapping": {
+        "boundary": ["protected_area", "national_park"]
+    }
+}</code></pre></div></div></section><section>
+
+
+
+<div data-block-id="7c4e6e9504e7fad7a8f0b3f86cb8f6ec" style="min-width: 30px; min-height: 30px; width: 902px; height: 632px; left: 29px; top: 66px;" data-block-type="code" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><pre><code>CREATE OR REPLACE FUNCTION maskunion(IN _schema TEXT, IN _parttionbase TEXT, TEXT)
+RETURNS void
+LANGUAGE plpgsql
+AS
+$$
+DECLARE
+    row     record;
+BEGIN
+    EXECUTE 'DROP TABLE IF EXISTS ' || $3;
+    EXECUTE 'CREATE TABLE ' || $3 || '
+        (
+          ogc_fid integer,
+          wkb_geometry geometry(Point,4326),
+          "time" timestamp with time zone,
+          name character varying,
+          "desc" character varying
+        )';
+    FOR row IN
+        SELECT
+            table_schema,
+            table_name
+        FROM
+            information_schema.tables
+        WHERE
+            table_type = 'BASE TABLE'
+        AND
+            table_schema = _schema
+        AND
+            table_name ILIKE (_parttionbase || '%')
+    LOOP
+        EXECUTE 'INSERT INTO ' || $3 || ' SELECT * FROM ' || quote_ident(row.table_name);
+    END LOOP;
+END;
+$$;
+
+--SELECT maskunion('public', 'gpx_user_', 'union_gpx_data');</code></pre></div></div>
+<div data-block-id="e6f284fc57d73ac0e840089963d284af" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">POSTGIS DATA PROCESSING</h2>
+</div></div></section><section>
+
+
+
+<div data-block-id="b4add41ce3d911110adcf6cf6ed645a6" style="width: 902px; height: 560px; left: 29px; top: 105px;" data-block-type="code" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><pre><code>CREATE OR REPLACE FUNCTION footgun(IN _schema TEXT, IN _parttionbase TEXT)
+RETURNS void
+LANGUAGE plpgsql
+AS
+$$
+DECLARE
+    row     record;
+BEGIN
+    FOR row IN
+        SELECT
+            table_schema,
+            table_name
+        FROM
+            information_schema.tables
+        WHERE
+            table_type = 'BASE TABLE'
+        AND
+            table_schema = _schema
+        AND
+            table_name ILIKE (_parttionbase || '%')
+    LOOP
+        EXECUTE 'DROP TABLE ' || quote_ident(row.table_schema) || '.' || quote_ident(row.table_name);
+        RAISE INFO 'Dropped table: %', quote_ident(row.table_schema) || '.' || quote_ident(row.table_name);
+    END LOOP;
+END;
+$$;
+ 
+--SELECT footgun('public', 'gpx_user_');</code></pre></div></div>
+<div data-block-id="e759f23b4cc9c53047ab11e88c42511c" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">POSTGIS DATA PROCESSING</h2>
+</div></div></section><section>
+
+
+
+<div data-block-id="b282f0d252e83c5fa3faedb0d82dbadc" style="width: 902px; height: 446px; left: 29px; top: 77px;" data-block-type="code" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><pre><code>CREATE OR REPLACE FUNCTION utmzone(geometry)
+   RETURNS integer AS
+ $BODY$
+ DECLARE
+     geomgeog geometry;
+     zone int;
+     pref int;
+
+ BEGIN
+     geomgeog:= ST_Transform($1,4326);
+
+     IF (ST_Y(geomgeog))&gt;0 THEN
+        pref:=32600;
+     ELSE
+        pref:=32700;
+     END IF;
+
+     zone:=floor((ST_X(geomgeog)+180)/6)+1;
+
+     RETURN zone+pref;
+ END;
+ $BODY$ LANGUAGE 'plpgsql' IMMUTABLE
+   COST 100;</code></pre></div></div>
+<div data-block-id="75f1888867f01b8d0eca1d2fe620f262" style="min-width: 30px; min-height: 30px; width: 480.571px; height: 116px; left: 29px; top: 560px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="105" data-natural-width="435" style="" data-src="gisconf-2015-npmapillary-2015/1976007-2015-11-20_21h51_21.png"></div></div>
+<div data-block-id="000b977f21391f896497faa9e861a174" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">POSTGIS DATA PROCESSING</h2>
+</div></div></section><section>
+
+
+
+<div data-block-id="bd7c89b68566c6a7e905fe709924b93b" style="min-width: 30px; min-height: 30px; width: 960px; height: 217px; left: 0px; top: 70px;" data-block-type="code" class="sl-block"><div style="z-index: 11;" class="sl-block-content"><pre><code>--UNION ALL IMPORTED 'gpx_user_%USERNAME%' TABLES IN 'union_gpx_data' TABLE
+SELECT maskunion('public', 'gpx_user_', 'union_gpx_data');
+--
+--
+--'union_gpx_data': RENAME 'ogc_fid', 'wkb_geometry', 'time' FIELDS. DELETE 'desc' FIELD. CHANGE DATA TYPE FOR 'gpxtime' FIELD
+ALTER TABLE "union_gpx_data" RENAME ogc_fid TO id; 
+ALTER TABLE "union_gpx_data" RENAME wkb_geometry TO geom; 
+ALTER TABLE "union_gpx_data" RENAME "time" TO gpxtime;
+ALTER TABLE "union_gpx_data" DROP COLUMN "desc";
+ALTER TABLE "union_gpx_data" ALTER COLUMN gpxtime TYPE date USING gpxtime::date;</code></pre></div></div>
+<div data-block-id="411efc5670c9fbc1946b1bec4615ce91" style="min-width: 30px; min-height: 30px; width: 960px; height: 105px; left: 0px; top: 315px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>-- CREATE 'ncp_buffer' TABLE WITH 20m GEOM BUFFER FROM 'nature_conservation_polygon' TABLE
+DROP TABLE IF EXISTS ncp_buffer;
+CREATE TABLE ncp_buffer AS SELECT a.name, a.boundary, ST_Buffer( ST_Transform(a.geom, utmzone(ST_Centroid(a.geom))), 20) AS geom FROM nature_conservation_polygon a;
+ALTER TABLE ncp_buffer ALTER COLUMN geom TYPE Geometry(Geometry,4326) USING ST_Transform(geom,4326);</code></pre></div></div>
+<div data-block-id="793d1153471c87c63380431e3c3b508f" style="min-width: 30px; min-height: 30px; width: 467.836px; height: 256px; left: 246px; top: 432px;" data-block-type="image" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><img data-natural-height="342" data-natural-width="625" style="" data-src="gisconf-2015-npmapillary-2015/1976029-2015-11-20_21h57_47.png"></div></div>
+<div data-block-id="2c8e6c335cd3d150496b8ab0bfbc6d5f" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">POSTGIS DATA PROCESSING</h2>
+</div></div></section><section>
+
+
+<div data-block-id="d210b03d190a565f7f6d40eaa2c40d7d" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">POSTGIS DATA PROCESSING</h2>
+</div></div>
+<div data-block-id="ba4d9c35c91a2011ba579a5ec0d8079c" style="min-width: 30px; min-height: 30px; width: 931px; height: 451px; left: 15px; top: 99px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>--CREATE 'data_first_time' TABLE WITH 'gpxtime' BETWEEN '2015-09-15 - 2015-12-15'
+DROP TABLE IF EXISTS data_first_time;
+CREATE TABLE data_first_time AS SELECT * FROM union_gpx_data WHERE gpxtime BETWEEN '2015-09-15 00:00:00'::timestamp AND '2015-12-15 23:59:59'::timestamp ORDER BY id DESC;
+--
+--CREATE 'data_first_in_np' WITH POINTS IN NP 
+DROP TABLE IF EXISTS data_first_in_np;
+CREATE TABLE data_first_in_np AS SELECT a.* FROM data_first_time a, ncp_buffer b WHERE ST_Intersects(a.geom, b.geom);
+--
+--ADD NP NAMES TO POINTS
+ALTER TABLE data_first_in_np ADD COLUMN paname character varying; 
+UPDATE data_first_in_np points SET paname = p.name 
+FROM ncp_buffer p WHERE ST_Contains(p.geom, points.geom);
+--
+--CREATE TABLE WITH STATISTICS
+DROP TABLE IF EXISTS table_count_first;
+CREATE TABLE table_count_first AS SELECT name, paname, COUNT(*) FROM data_first_in_np GROUP BY name, paname ORDER BY count;
+--
+--CREATE JSON DATA
+COPY (SELECT array_to_json(array_agg(row_to_json(t))) FROM (SELECT  name, array_agg(paname) AS paname, SUM(count) AS count FROM table_count_first GROUP BY name ORDER BY count DESC) t) to '/home/hast/np.mapillary.tools/data/table_count_first.json';
+--COPY (SELECT array_to_json(array_agg(row_to_json(t))) FROM (SELECT  name, array_agg(paname) AS paname, SUM(count) AS count FROM table_count_first GROUP BY name ORDER BY count DESC) t) to 'D:\np.mapillary.tools\data\table_count_first.json';
+--
+SELECT footgun('public', 'gpx_user_');</code></pre></div></div></section><section>
+
+
+<div data-block-id="5faa4acb8981ee1b195c29b49c86758f" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">DATA FOR Web application</h2>
+</div></div>
+<div data-block-id="f82b6ad498cf6d157cd1b8527b898476" style="min-width: 30px; min-height: 30px; width: 960px; height: 53px; left: 0px; top: 114px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>ogr2ogr -nlt POLYGON -f "GeoJSON" data/nature_conservation_polygon.geojson PG:"host=$HOST user=$USER dbname=$DBNAME password=$PASSWORD" nature_conservation_polygon -simplify 0.001 -lco COORDINATE_PRECISION=5</code></pre></div></div>
+<div data-block-id="ac306383356ae9c3515a0a906112aa5e" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 216px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<ul>
+	<li style="text-align: left;">nature_conservation_polygon.geojson</li>
+	<li style="text-align: left;">table_count_first.json</li>
+	<li style="text-align: left;">table_count_second.json</li>
+</ul>
+</div></div></section><section>
+
+
+<div data-block-id="1043efd49a5832a130b16ab6a4381714" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="5cf89a686075b0d72d157ddae52ededf" style="min-width: 30px; min-height: 30px; width: 521.255px; height: 493px; left: 250px; top: 174px;" data-block-type="image" class="sl-block"><div style="z-index: 12; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="506" data-natural-width="535" style="" data-src="gisconf-2015-npmapillary-2015/1976138-2015-11-20_22h33_36.png"></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="659dcaeee298e059ba7788517019b6a5" style="height: auto; min-width: 30px; min-height: 30px; width: 314px; left: 7px; top: 104px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p><a href="http://leafletjs.com/" target="_blank">http://leafletjs.com/</a></p>
+</div></div></section><section>
+
+
+<div data-block-id="d223f15ec07a1555ba2140e9a1704792" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="b78616a0d900c02326520ad52749cd2f" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 78px; top: 104px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;">Mapillary Vector Tiles</p>
+</div></div>
+<div data-block-id="1df808eafa1b734d32bbe30863ad75b4" style="min-width: 30px; min-height: 30px; width: 596px; height: 36px; left: 34px; top: 140px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>https://d2munx5tg0hw47.cloudfront.net/tiles/{z}/{x}/{y}.mapbox</code></pre></div></div>
+<div data-block-id="e7cb9d13baec2955ee934ac884bdec22" style="min-width: 30px; min-height: 30px; width: 360px; height: 232px; left: 18px; top: 234px;" data-block-type="image" class="sl-block"><div style="z-index: 14; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="232" data-natural-width="360" style="" data-src="gisconf-2015-npmapillary-2015/1976107-2015-05-27-hover-tiles.gif"></div></div>
+<div data-block-id="5fec8480721b8d96978cbb051bff085a" style="min-width: 30px; min-height: 30px; width: 579.016px; height: 353px; left: 358px; top: 320px;" data-block-type="image" class="sl-block"><div style="z-index: 15; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="442" data-natural-width="725" style="" data-src="gisconf-2015-npmapillary-2015/1976131-2015-11-20_22h30_55.png"></div></div></section><section>
+
+
+<div data-block-id="901ac3f9d4b33fc30ac06a6d3e578431" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="44d21683280e80345b4891e5f9454bbe" style="min-width: 30px; min-height: 30px; width: 172.009px; height: 131px; left: 140px; top: 161px;" data-block-type="image" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><img data-natural-height="115" data-natural-width="151" style="" data-src="gisconf-2015-npmapillary-2015/1976155-2015-11-20_22h35_53.png"></div></div>
+<div data-block-id="a9978203cfc66c3adf8e8f9fe7007696" style="min-width: 30px; min-height: 30px; width: 793px; height: 102px; left: 80px; top: 330px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>&lt;!--CSS--&gt;
+&lt;link rel="stylesheet" href="assets/leaflet-0.7.7/leaflet.css" /&gt;
+&lt;link rel="stylesheet" href="assets/bootstrap-3.3.5/css/bootstrap.min.css"&gt;
+&lt;link rel="stylesheet" href="assets/bootstrap-table/bootstrap-table.min.css"&gt;	
+&lt;link rel="stylesheet" href="assets/font-awesome-4.2.0/css/font-awesome.min.css"&gt;	</code></pre></div></div>
+<div data-block-id="67e7d90141963802dff22d73df27c4d2" style="min-width: 30px; min-height: 30px; width: 705px; height: 161px; left: 80px; top: 469px;" data-block-type="code" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><pre><code>&lt;!--JavaScript--&gt;
+&lt;script src="assets/jquery-1.11.3.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/leaflet-0.7.7/leaflet.js"&gt;&lt;/script&gt;
+&lt;script src="assets/bootstrap-3.3.5/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/bootstrap-table/bootstrap-table.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/leaflet.easybutton/easy-button.js"&gt;&lt;/script&gt;	
+&lt;script src="assets/leaflet-hash.js"&gt;&lt;/script&gt;	
+&lt;script src="assets/tangram.min.js"&gt;&lt;/script&gt;	</code></pre></div></div></section><section>
+
+
+<div data-block-id="36f8b57cb791adc88ccc0672d4f07e8e" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 10;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="bac8dced5e5bbbbdf8eba5a2c3ee3ce2" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 40px; top: 235px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Tangram is a JavaScript library for rendering 2D &amp; 3D maps live in a web browser with WebGL.</p>
+</div></div>
+<div data-block-id="fa4597181503582a2e1e78d353b01d71" style="height: auto; min-width: 30px; min-height: 30px; width: 225px; left: 33px; top: 104px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h3>Tangram</h3>
+</div></div>
+<div data-block-id="efbc9ec3d815da0b56c88b92787f7a16" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 147px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;"><a href="https://github.com/tangrams/tangram" target="_blank">https://github.com/tangrams/tangram</a></p>
+</div></div>
+<div data-block-id="297868474c1f7af11bd2c6e33dce3244" style="min-width: 30px; min-height: 30px; width: 675.572px; height: 204px; left: 266px; top: 477px;" data-block-type="image" class="sl-block"><div style="z-index: 16; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="215" data-natural-width="712" style="" data-src="gisconf-2015-npmapillary-2015/1976205-2015-11-20_22h44_24.png"></div></div>
+<div data-block-id="f07236fa5d1cf5b6be7554dfd24cc849" style="min-width: 30px; min-height: 30px; width: 606px; height: 239.143px; left: 34px; top: 340px;" data-block-type="image" class="sl-block"><div style="z-index: 15; border-style: solid; border-width: 1px;" class="sl-block-content"><img data-natural-height="279" data-natural-width="707" style="" data-src="gisconf-2015-npmapillary-2015/1976206-2015-11-20_22h43_07.png"></div></div></section><section>
+
+
+<div data-block-id="7454d9db1c9bc6bd933a5cb9e21751b2" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="e901074e8ca0eb52291026507a3587bc" style="min-width: 30px; min-height: 30px; width: 923px; height: 234px; left: 19px; top: 87px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>var layerOSM = L.tileLayer('http://{s}.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IlhHVkZmaW8ifQ.hAMX5hSW-QnTeRCMAy9A8Q', {
+	attribution: 'Map style © &lt;a href="https://www.mapbox.com/about/maps/"&gt;MapBox&lt;/a&gt;; Map data © &lt;a href="http://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt; contributors'
+});
+var map = new L.Map('map', {
+	layers: [layerOSM],
+	minZoom: 6,
+	maxZoom: 15,
+	zoom: 7, 
+	center: [48.6, 32.2],
+	maxBounds: new L.LatLngBounds(new L.LatLng(43.9655, 12.4158), new L.LatLng(53.0720, 52.0862))
+});</code></pre></div></div>
+<div data-block-id="f5bac3ca4f378d90ad5fe84fd07801f0" style="min-width: 30px; min-height: 30px; width: 922px; height: 356px; left: 20px; top: 335px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>var nature_conservation_polygon = L.geoJson(null, {
+	style: function(feature) {
+		if (feature.properties.name === null) {
+			return {
+				color: "#ff4c4c",
+				fill: true,
+				opacity: 0.7,
+				weight: 2
+			};
+		} else
+		return {
+			color: "#9ace00",
+			fill: true,
+			opacity: 0.7,
+			weight: 2
+		};
+	},
+	onEachFeature: function(feature, layer_nature_conservation_polygon) {
+		layer_nature_conservation_polygon.on({
+			dblclick: function(e) {
+				var url = 'http://www.openstreetmap.org/' + (feature.properties.osm_id &lt; 0 ? 'relation/' + feature.properties.osm_id * (-1) : 'way/' + feature.properties.osm_id);
+				window.open(url);
+			}
+		});
+	}
+});
+$.getJSON("data/nature_conservation_polygon.geojson", function(data) {
+	nature_conservation_polygon.addData(data);
+});	
+nature_conservation_polygon.addTo(map);	</code></pre></div></div></section><section>
+
+
+<div data-block-id="174cf80b9b19b4f322ddd5c6066eec64" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="162709495aa9bcaef0d2f3012134ee2f" style="min-width: 30px; min-height: 30px; width: 923px; height: 53px; left: 19px; top: 79px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>var layer = Tangram.leafletLayer({ scene: 'assets/scene.yaml' });
+layer.addTo(map);</code></pre></div></div>
+<div data-block-id="fbd87fb414a77dfbc23b40e10403254a" style="min-width: 30px; min-height: 30px; width: 922px; height: 489px; left: 19px; top: 194px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-.25, -.75]
+    camera2:
+        type: isometric
+        axis: [.0, 1.]
+        active: true
+lights:
+    light1:
+        type: directional
+        diffuse: 1
+        ambient: .35
+
+sources:
+    mapillary:
+        type: MVT
+        url:  https://d2munx5tg0hw47.cloudfront.net/tiles/{z}/{x}/{y}.mapbox
+        max_zoom: 15
+layers:
+     mapillary-sequences:
+        data: { source: mapillary }
+        filter: |
+            function() {
+                return (
+                    properties.min &amp;&amp;
+                    properties.max &amp;&amp;
+                    feature.captured_at &gt; properties.min &amp;&amp;
+                    feature.captured_at &lt; properties.max
+                );
+            }
+        properties: 
+            key_text: ""
+            value_text: ""
+            newest: '#00ff00'
+            oldest: '#0000ff'
+            min: 1442264400000
+            max: 1469183337901
+        draw:
+            lines:
+                interactive: true
+                order: 99
+                color: 'rgba(253,154,0,0.5)'
+                width: 3px
+            text:
+                order: 100
+                text_source: username
+                font:
+                    typeface: 8pt Helvetica
+                    fill: 'rgba(17,1,150,0.6)'
+                    stroke: { color: white, width: 2 }</code></pre></div></div>
+<div data-block-id="356bac387b83ee81dadb249ce87bc2d0" style="height: auto; min-width: 30px; min-height: 30px; width: 193px; left: 19px; top: 160px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<pre style="text-align: left;">scene.yaml</pre>
+</div></div></section><section>
+
+
+<div data-block-id="78bdfd450c9f1bef8cfbdbee36398b0f" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">СОЗДАНИЕ web-страницы</h2>
+</div></div>
+<div data-block-id="48a182fe55541c2e94aa69d43ae6fda5" style="min-width: 30px; min-height: 30px; width: 930px; height: 210px; left: 15px; top: 105px;" data-block-type="code" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><pre><code>&lt;table data-toggle="table" data-url="data/table_count_first.json" data-cache="false" data-height="auto"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th data-field="place" data-formatter="placeNumber"&gt;Місце&lt;/th&gt;
+            &lt;th data-field="name" data-formatter="linkUserName"&gt;Mapillary профіль&lt;/th&gt;
+            &lt;th data-field="paname" data-formatter="panameReplace"&gt;Об'єкти ПЗФ&lt;/th&gt;
+            &lt;th data-field="count"&gt;Кількість фото&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+&lt;/table&gt;</code></pre></div></div>
+<div data-block-id="b558608d48f55cce7063d426b44af9b7" style="min-width: 30px; min-height: 30px; width: 912px; height: 239px; left: 24px; top: 379px;" data-block-type="code" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><pre><code>function placeNumber(value, row, index) {
+	return 1 + index;
+};
+
+function linkUserName(value, row) {
+	return '&lt;a target="_blank" href="https://www.mapillary.com/profile/' + value + '"&gt;' + value + '&lt;/a&gt;';
+};
+
+function panameReplace(value, row, index) {
+	return JSON.stringify(value).replace(/","/g, ', ').slice(2, -2);
+};
+</code></pre></div></div></section><section>
+
+
+<div data-block-id="2b041ef6e6743aff458f8158a5695d33" style="height: auto; width: 880px; left: 80px; top: 28px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<h2 style="text-align:left">результат</h2>
+</div></div>
+<div data-block-id="ee6334e9d4ad3db586e4b30ab7e9fb6b" style="min-width: 30px; min-height: 30px; width: 933px; height: 563px; left: 17px; top: 126px;" data-block-type="iframe" class="sl-block"><div style="z-index: 12;" class="sl-block-content"><iframe data-src="https://spatialhast.github.io/np.mapillary/" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe></div></div>
+<div data-block-id="c4efb3dfdbc8edaac629ecbdadfd039f" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 20px; top: 78px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p style="text-align: left;"><a href="http://spatialhast.github.io/np.mapillary/" target="_blank">http://spatialhast.github.io/np.mapillary/</a></p>
+</div></div></section><section><div data-block-id="996f6d55358779938e1f35959d66376f" class="sl-block" data-block-type="text" style="width: 409px; left: 400px; top: 280px; height: auto;"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1><span style="font-size:1.4em">ВОПРОСЫ?</span></h1>
+</div></div>
+<div data-block-id="cb9b6b284cffaee21b44bb4e4f7e5f7c" style="height: auto; min-width: 30px; min-height: 30px; width: 414px; left: 410px; top: 490px;" data-block-type="text" class="sl-block"><div style="z-index: 11;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="mailto:kleshnin.alexander@gmail.com" target="_top">Александр Клешнин</a></p>
+</div></div>
+<div data-block-id="bec0011f9bf7873d45e635251df5423b" style="height: auto; min-width: 30px; min-height: 30px; width: 354px; left: 456px; top: 524px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>GIS Analyst, <a href="http://intetics.com/gis-and-geospatial-solutions/" target="_blank">Intetics Geo</a></p>
+</div></div>
+<div data-block-id="87fef60a7541cbc8536b34a132d3ff3d" style="min-width: 30px; min-height: 30px; width: 241.348px; height: 300px; left: 40px; top: 39px;" data-block-type="image" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><img data-natural-height="445" data-natural-width="358" style="" data-src="gisconf-2015-npmapillary-2015/1976322-opengis2015.png"></div></div>
+<div style="height: auto; min-width: 30px; min-height: 30px; width: 414px; left: 466px; top: 560px;" data-block-type="text" class="sl-block" data-block-id="4be8618e3e0608b03a4370b1dbe64629"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="mailto:kleshnin.alexander@gmail.com" target="_top">kleshnin.alexander@gmail.com</a></p>
+</div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":543232,"slug":"gisconf-2015-npmapillary-2015","title":"GISConf 2015 | NP@Mapillary 2015","description":"","visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/d54700/decks.jpg","view_count":4,"user":{"id":62337,"username":"hast","name":"Alexander","description":"","thumbnail_url":"https://www.gravatar.com/avatar/eee6f11bbcb9d9107f59d3f66517a98f?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","pro":true,"enterprise":false,"enterprise_manager":false,"settings":{"id":220649,"present_controls":true,"present_upsizing":true,"present_notes":true},"registered":true},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"overpass2","theme_color":"black-orange","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"notes":{"44003e83215160ed37967387457d2233":"","d902a66d2ae2d6b89cff5f35abdff78a":""}}};
+			SLConfig.current_user = {
+				name: "Alexander",
+				username: "hast",
+				pro: true
+			};
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script>
+			// Make Slides speaker notes available in the reveal.js speaker view
+			if( SLConfig.deck.notes ) {
+				[].forEach.call( document.querySelectorAll( '.reveal .slides section' ), function( slide ) {
+
+					var value = SLConfig.deck.notes[ slide.getAttribute( 'data-id' ) ];
+					if( value && typeof value === 'string' ) {
+						slide.setAttribute( 'data-notes', value );
+					}
+
+				} );
+			}
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+				showNotes: SLConfig.deck.share_notes,
+				slideNumber: SLConfig.deck.slide_number,
+
+				autoSlide: SLConfig.deck.auto_slide_interval || 0,
+				autoSlideStoppable: true,
+
+				rolling_links: SLConfig.deck.rolling_links || true,
+				center: SLConfig.deck.center || false,
+				loop: SLConfig.deck.should_loop || false,
+				rtl: SLConfig.deck.rtl || false,
+
+				transition: SLConfig.deck.transition,
+				backgroundTransition: SLConfig.deck.background_transition,
+
+				maxScale: 2,
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+		
+
+	</body>
 </html>
